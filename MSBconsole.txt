@@ -1,0 +1,583 @@
+
+G:\STUDY COURSES TUT\Factory information system\assignment\3\FIS-3>clear
+'clear' is not recognized as an internal or external command,
+operable program or batch file.
+
+G:\STUDY COURSES TUT\Factory information system\assignment\3\FIS-3>node MSB.js
+Server running at http://localhost:5000/
+GET /changeState 200 8.384 ms - -
+GET /heartbeat 200 4.583 ms - -
+GET /changeState 200 12.473 ms - -
+GET /changeState 200 0.711 ms - -
+Content-Type: multipart/mixed;boundary=9pUvYAb7
+Message-Id: <IPC2501-2541>
+
+--9pUvYAb7
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="WS8" destination="MSB" dateTime="2017-04-05T17:00:04.504Z" messageSchema="http://webstds.ipc.org/2541/EquipmentChangeState.xsd" messageId="WS8|2017-04-05T17:00:04.504Z"/>
+--9pUvYAb7
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2541EquipmentHeartbeat xmlns:IPC2541EqHeartbeat="http://wbstds.ipc.org/2541/EquipmentHeartbeat.xsd" dateTime="2017-04-05T17:00:04.504Z" interval="20000">
+--9pUvYAb7--
+POST /heartbeat 200 38.212 ms - -
+Content-Type: multipart/mixed;boundary=zzHq1q6R
+Message-Id: <IPC2501-2541>
+
+--zzHq1q6R
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="AA-localhost/5000" destination="MSB-localhost/5000" dateTime="2017-04-05T17:00:05.119Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:05.119Z"/>
+--zzHq1q6R
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:05.119Z" MessageId="WS8|2017-04-05T17:00:05.119Z|0001">
+--zzHq1q6R--
+GET /heartbeat 200 1.252 ms - -
+GET /changeState 200 2.089 ms - -
+GET /changeState 200 0.558 ms - -
+POST /notifs 200 3.989 ms - -
+POST /notifs 200 3.624 ms - -
+Content-Type: multipart/mixed;boundary=uiU4vOkp
+Message-Id: <IPC2501-2541>
+
+--uiU4vOkp
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="AA-localhost/5000" destination="MSB-localhost/5000" dateTime="2017-04-05T17:00:16.072Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:16.072Z"/>
+--uiU4vOkp
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:16.072Z" MessageId="MSB-localhost/5000|2017-04-05T17:00:16.072Z|0001">
+--uiU4vOkp--
+GET /heartbeat 200 2.288 ms - -
+GET /changeState 200 25.823 ms - -
+POST /notifs 200 1.919 ms - -
+Content-Type: multipart/mixed;boundary=ClKWZtYw
+Message-Id: <IPC2501-2541>
+
+--ClKWZtYw
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="AA-localhost/5000" destination="MSB-localhost/5000" dateTime="2017-04-05T17:00:19.969Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:19.969Z"/>
+--ClKWZtYw
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:19.969Z" MessageId="MSB-localhost/5000|2017-04-05T17:00:19.969Z|0001">
+--ClKWZtYw--
+POST /notifs 200 1.952 ms - -
+GET /changeState 200 0.700 ms - -
+POST /notifs 200 1.676 ms - -
+Content-Type: multipart/mixed;boundary=kJ15z4No
+Message-Id: <IPC2501-2541>
+
+--kJ15z4No
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="AA-localhost/5000" destination="MSB-localhost/5000" dateTime="2017-04-05T17:00:24.771Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:24.771Z"/>
+--kJ15z4No
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:24.771Z" MessageId="MSB-localhost/5000|2017-04-05T17:00:24.771Z|0001">
+--kJ15z4No--
+POST /notifs 200 1.843 ms - -
+Content-Type: multipart/mixed;boundary=yDGuL6d0
+Message-Id: <IPC2501-2541>
+
+--yDGuL6d0
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="WS8" destination="MSB" dateTime="2017-04-05T17:00:24.513Z" messageSchema="http://webstds.ipc.org/2541/EquipmentChangeState.xsd" messageId="WS8|2017-04-05T17:00:24.513Z"/>
+--yDGuL6d0
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2541EquipmentHeartbeat xmlns:IPC2541EqHeartbeat="http://wbstds.ipc.org/2541/EquipmentHeartbeat.xsd" dateTime="2017-04-05T17:00:24.513Z" interval="20000">
+--yDGuL6d0--
+POST /heartbeat 200 5.850 ms - -
+Content-Type: multipart/mixed;boundary=uyHDKdDi
+Message-Id: <IPC2501-2541>
+
+--uyHDKdDi
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="AA-localhost/5000" destination="MSB-localhost/5000" dateTime="2017-04-05T17:00:25.379Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:25.379Z"/>
+--uyHDKdDi
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:25.379Z" MessageId="WS8|2017-04-05T17:00:25.379Z|0001">
+--uyHDKdDi--
+GET /heartbeat 200 0.792 ms - -
+GET /changeState 200 0.565 ms - -
+GET /changeState 200 0.536 ms - -
+GET /heartbeat 200 0.441 ms - -
+GET /changeState 200 2.327 ms - -
+POST /notifs 200 0.985 ms - -
+Content-Type: multipart/mixed;boundary=EdR8KGw0
+Message-Id: <IPC2501-2541>
+
+--EdR8KGw0
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="AA-localhost/5000" destination="MSB-localhost/5000" dateTime="2017-04-05T17:00:41.119Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:41.119Z"/>
+--EdR8KGw0
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:41.119Z" MessageId="MSB-localhost/5000|2017-04-05T17:00:41.119Z|0001">
+--EdR8KGw0--
+POST /notifs 200 1.331 ms - -
+GET /changeState 200 0.452 ms - -
+Content-Type: multipart/mixed;boundary=AQ3pUdsK
+Message-Id: <IPC2501-2541>
+
+--AQ3pUdsK
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="WS8" destination="MSB" dateTime="2017-04-05T17:00:44.518Z" messageSchema="http://webstds.ipc.org/2541/EquipmentChangeState.xsd" messageId="WS8|2017-04-05T17:00:44.518Z"/>
+--AQ3pUdsK
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2541EquipmentHeartbeat xmlns:IPC2541EqHeartbeat="http://wbstds.ipc.org/2541/EquipmentHeartbeat.xsd" dateTime="2017-04-05T17:00:44.518Z" interval="20000">
+--AQ3pUdsK--
+POST /heartbeat 200 4.787 ms - -
+Content-Type: multipart/mixed;boundary=M6XkAlUh
+Message-Id: <IPC2501-2541>
+
+--M6XkAlUh
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="AA-localhost/5000" destination="MSB-localhost/5000" dateTime="2017-04-05T17:00:45.482Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:45.482Z"/>
+--M6XkAlUh
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:45.482Z" MessageId="WS8|2017-04-05T17:00:45.482Z|0001">
+--M6XkAlUh--
+POST /notifs 200 1.190 ms - -
+POST /notifs 200 0.985 ms - -
+Content-Type: multipart/mixed;boundary=58AT7XuJ
+Message-Id: <IPC2501-2541>
+
+--58AT7XuJ
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="AA-localhost/5000" destination="MSB-localhost/5000" dateTime="2017-04-05T17:00:45.931Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:45.931Z"/>
+--58AT7XuJ
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:45.931Z" MessageId="MSB-localhost/5000|2017-04-05T17:00:45.931Z|0001">
+--58AT7XuJ--
+GET /heartbeat 200 0.376 ms - -
+GET /changeState 200 0.406 ms - -
+GET /changeState 200 0.386 ms - -
+POST /notifs 200 1.180 ms - -
+Content-Type: multipart/mixed;boundary=6SuoWtcb
+Message-Id: <IPC2501-2541>
+
+--6SuoWtcb
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="AA-localhost/5000" destination="MSB-localhost/5000" dateTime="2017-04-05T17:00:54.894Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:54.894Z"/>
+--6SuoWtcb
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:54.894Z" MessageId="MSB-localhost/5000|2017-04-05T17:00:54.894Z|0001">
+--6SuoWtcb--
+POST /notifs 200 1.055 ms - -
+GET /heartbeat 200 0.603 ms - -
+GET /changeState 200 3.235 ms - -
+POST /notifs 200 0.678 ms - -
+Content-Type: multipart/mixed;boundary=oRAuE3uE
+Message-Id: <IPC2501-2541>
+
+--oRAuE3uE
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="AA-localhost/5000" destination="MSB-localhost/5000" dateTime="2017-04-05T17:00:58.951Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:58.951Z"/>
+--oRAuE3uE
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:58.951Z" MessageId="MSB-localhost/5000|2017-04-05T17:00:58.951Z|0001">
+--oRAuE3uE--
+POST /notifs 200 1.272 ms - -
+GET /changeState 200 0.881 ms - -
+POST /notifs 200 1.989 ms - -
+Content-Type: multipart/mixed;boundary=FLA6IRuG
+Message-Id: <IPC2501-2541>
+
+--FLA6IRuG
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="AA-localhost/5000" destination="MSB-localhost/5000" dateTime="2017-04-05T17:01:02.771Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:02.771Z"/>
+--FLA6IRuG
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:02.771Z" MessageId="MSB-localhost/5000|2017-04-05T17:01:02.771Z|0001">
+--FLA6IRuG--
+POST /notifs 200 0.798 ms - -
+Content-Type: multipart/mixed;boundary=mRG4Ifns
+Message-Id: <IPC2501-2541>
+
+--mRG4Ifns
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="WS8" destination="MSB" dateTime="2017-04-05T17:01:04.522Z" messageSchema="http://webstds.ipc.org/2541/EquipmentChangeState.xsd" messageId="WS8|2017-04-05T17:01:04.522Z"/>
+--mRG4Ifns
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2541EquipmentHeartbeat xmlns:IPC2541EqHeartbeat="http://wbstds.ipc.org/2541/EquipmentHeartbeat.xsd" dateTime="2017-04-05T17:01:04.522Z" interval="20000">
+--mRG4Ifns--
+POST /heartbeat 200 1.082 ms - -
+Content-Type: multipart/mixed;boundary=k872vMlZ
+Message-Id: <IPC2501-2541>
+
+--k872vMlZ
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="AA-localhost/5000" destination="MSB-localhost/5000" dateTime="2017-04-05T17:01:05.452Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:05.452Z"/>
+--k872vMlZ
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:05.452Z" MessageId="WS8|2017-04-05T17:01:05.452Z|0001">
+--k872vMlZ--
+POST /notifs 200 0.737 ms - -
+POST /notifs 200 2.607 ms - -
+GET /heartbeat 200 0.394 ms - -
+GET /changeState 200 0.522 ms - -
+GET /changeState 200 0.464 ms - -
+POST /notifs 200 1.269 ms - -
+Content-Type: multipart/mixed;boundary=cAuhLkse
+Message-Id: <IPC2501-2541>
+
+--cAuhLkse
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="AA-localhost/5000" destination="MSB-localhost/5000" dateTime="2017-04-05T17:01:14.102Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:14.102Z"/>
+--cAuhLkse
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:14.102Z" MessageId="MSB-localhost/5000|2017-04-05T17:01:14.102Z|0001">
+--cAuhLkse--
+POST /notifs 200 1.000 ms - -
+GET /heartbeat 200 0.599 ms - -
+GET /changeState 200 0.533 ms - -
+POST /notifs 200 0.950 ms - -
+Content-Type: multipart/mixed;boundary=rNsygrB8
+Message-Id: <IPC2501-2541>
+
+--rNsygrB8
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="AA-localhost/5000" destination="MSB-localhost/5000" dateTime="2017-04-05T17:01:17.864Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:17.864Z"/>
+--rNsygrB8
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:17.864Z" MessageId="MSB-localhost/5000|2017-04-05T17:01:17.864Z|0001">
+--rNsygrB8--
+POST /notifs 200 1.199 ms - -
+GET /changeState 200 0.507 ms - -
+POST /notifs 200 0.752 ms - -
+POST /notifs 200 0.949 ms - -
+Content-Type: multipart/mixed;boundary=lfryL6e2
+Message-Id: <IPC2501-2541>
+
+--lfryL6e2
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="AA-localhost/5000" destination="MSB-localhost/5000" dateTime="2017-04-05T17:01:23.738Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:23.738Z"/>
+--lfryL6e2
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:23.738Z" MessageId="MSB-localhost/5000|2017-04-05T17:01:23.738Z|0001">
+--lfryL6e2--
+Content-Type: multipart/mixed;boundary=DQvETITp
+Message-Id: <IPC2501-2541>
+
+--DQvETITp
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="WS8" destination="MSB" dateTime="2017-04-05T17:01:24.527Z" messageSchema="http://webstds.ipc.org/2541/EquipmentChangeState.xsd" messageId="WS8|2017-04-05T17:01:24.527Z"/>
+--DQvETITp
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2541EquipmentHeartbeat xmlns:IPC2541EqHeartbeat="http://wbstds.ipc.org/2541/EquipmentHeartbeat.xsd" dateTime="2017-04-05T17:01:24.527Z" interval="20000">
+--DQvETITp--
+POST /heartbeat 200 2.936 ms - -
+Content-Type: multipart/mixed;boundary=PBP0PyC1
+Message-Id: <IPC2501-2541>
+
+--PBP0PyC1
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="AA-localhost/5000" destination="MSB-localhost/5000" dateTime="2017-04-05T17:01:25.155Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:25.155Z"/>
+--PBP0PyC1
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:25.155Z" MessageId="WS8|2017-04-05T17:01:25.155Z|0001">
+--PBP0PyC1--
+GET /heartbeat 200 0.552 ms - -
+GET /changeState 200 0.674 ms - -
+POST /notifs 200 1.000 ms - -
+Content-Type: multipart/mixed;boundary=2LUiRp2R
+Message-Id: <IPC2501-2541>
+
+--2LUiRp2R
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="AA-localhost/5000" destination="MSB-localhost/5000" dateTime="2017-04-05T17:01:27.516Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:27.516Z"/>
+--2LUiRp2R
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:27.516Z" MessageId="MSB-localhost/5000|2017-04-05T17:01:27.516Z|0001">
+--2LUiRp2R--
+POST /notifs 200 1.522 ms - -
+GET /changeState 200 0.482 ms - -
+GET /heartbeat 200 0.754 ms - -
+GET /changeState 200 0.444 ms - -
+POST /notifs 200 0.946 ms - -
+POST /notifs 200 2.843 ms - -
+Content-Type: multipart/mixed;boundary=3hbwZ6gR
+Message-Id: <IPC2501-2541>
+
+--3hbwZ6gR
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="AA-localhost/5000" destination="MSB-localhost/5000" dateTime="2017-04-05T17:01:42.133Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:42.133Z"/>
+--3hbwZ6gR
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:42.133Z" MessageId="MSB-localhost/5000|2017-04-05T17:01:42.133Z|0001">
+--3hbwZ6gR--
+GET /changeState 200 0.411 ms - -
+Content-Type: multipart/mixed;boundary=pAldBlXk
+Message-Id: <IPC2501-2541>
+
+--pAldBlXk
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="WS8" destination="MSB" dateTime="2017-04-05T17:01:44.531Z" messageSchema="http://webstds.ipc.org/2541/EquipmentChangeState.xsd" messageId="WS8|2017-04-05T17:01:44.531Z"/>
+--pAldBlXk
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2541EquipmentHeartbeat xmlns:IPC2541EqHeartbeat="http://wbstds.ipc.org/2541/EquipmentHeartbeat.xsd" dateTime="2017-04-05T17:01:44.531Z" interval="20000">
+--pAldBlXk--
+POST /heartbeat 200 0.977 ms - -
+Content-Type: multipart/mixed;boundary=R3JM6Zgr
+Message-Id: <IPC2501-2541>
+
+--R3JM6Zgr
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="AA-localhost/5000" destination="MSB-localhost/5000" dateTime="2017-04-05T17:01:45.153Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:45.153Z"/>
+--R3JM6Zgr
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:45.153Z" MessageId="WS8|2017-04-05T17:01:45.153Z|0001">
+--R3JM6Zgr--
+GET /heartbeat 200 0.476 ms - -
+GET /changeState 200 0.802 ms - -
+GET /changeState 200 0.491 ms - -
+GET /heartbeat 200 0.382 ms - -
+GET /changeState 200 0.430 ms - -
+GET /changeState 200 0.400 ms - -
+undefined
+GET /heartbeat 200 0.412 ms - -
+GET /changeState 200 0.380 ms - -
+GET /changeState 200 0.397 ms - -
+undefined
+GET /heartbeat 200 0.389 ms - -
+GET /changeState 200 0.647 ms - -
+undefined
+GET /changeState 200 0.479 ms - -
+undefined
+undefined
+GET /heartbeat 200 0.423 ms - -
+GET /changeState 200 0.464 ms - -
+GET /changeState 200 0.383 ms - -
+GET /heartbeat 200 1.183 ms - -
+GET /changeState 200 0.383 ms - -
+undefined
+GET /changeState 200 0.386 ms - -
+undefined
+undefined
+GET /heartbeat 200 0.479 ms - -
+GET /changeState 200 0.412 ms - -
+GET /changeState 200 0.435 ms - -
+undefined
+GET /heartbeat 200 0.438 ms - -
+GET /changeState 200 0.379 ms - -
+undefined
+GET /changeState 200 0.382 ms - -
+undefined
+undefined
+GET /heartbeat 200 0.492 ms - -
+GET /changeState 200 0.829 ms - -
+GET /changeState 200 0.402 ms - -
+undefined
+GET /heartbeat 200 0.462 ms - -
+GET /changeState 200 0.378 ms - -
+undefined
+GET /changeState 200 0.464 ms - -
+undefined
+undefined
+GET /heartbeat 200 0.449 ms - -
+GET /changeState 200 0.387 ms - -
+undefined
+GET /changeState 200 0.454 ms - -
+GET /heartbeat 200 0.462 ms - -
+GET /changeState 200 0.361 ms - -
+Content-Type: multipart/mixed;boundary=vC3FEbOY
+Message-Id: <IPC2501-2541>
+
+--vC3FEbOY
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="WS8" destination="MSB" dateTime="2017-04-05T17:03:38.444Z" messageSchema="http://webstds.ipc.org/2541/EquipmentChangeState.xsd" messageId="WS8|2017-04-05T17:03:38.444Z"/>
+--vC3FEbOY
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2541EquipmentHeartbeat xmlns:IPC2541EqHeartbeat="http://wbstds.ipc.org/2541/EquipmentHeartbeat.xsd" dateTime="2017-04-05T17:03:38.444Z" interval="20000">
+--vC3FEbOY--
+POST /heartbeat 200 0.876 ms - -
+Content-Type: multipart/mixed;boundary=AmGFOqB9
+Message-Id: <IPC2501-2541>
+
+--AmGFOqB9
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="AA-localhost/5000" destination="MSB-localhost/5000" dateTime="2017-04-05T17:03:38.970Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:03:38.970Z"/>
+--AmGFOqB9
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:03:38.970Z" MessageId="WS8|2017-04-05T17:03:38.970Z|0001">
+--AmGFOqB9--
+undefined
+GET /changeState 200 0.610 ms - -
+undefined
+GET /heartbeat 200 0.391 ms - -
+GET /changeState 200 0.418 ms - -
+GET /changeState 200 0.611 ms - -
+GET /heartbeat 200 0.465 ms - -
+GET /changeState 200 0.380 ms - -
+Content-Type: multipart/mixed;boundary=g33wpTu7
+Message-Id: <IPC2501-2541>
+
+--g33wpTu7
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="WS8" destination="MSB" dateTime="2017-04-05T17:03:58.453Z" messageSchema="http://webstds.ipc.org/2541/EquipmentChangeState.xsd" messageId="WS8|2017-04-05T17:03:58.453Z"/>
+--g33wpTu7
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2541EquipmentHeartbeat xmlns:IPC2541EqHeartbeat="http://wbstds.ipc.org/2541/EquipmentHeartbeat.xsd" dateTime="2017-04-05T17:03:58.453Z" interval="20000">
+--g33wpTu7--
+POST /heartbeat 200 1.038 ms - -
+Content-Type: multipart/mixed;boundary=HDiXxaIP
+Message-Id: <IPC2501-2541>
+
+--HDiXxaIP
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="AA-localhost/5000" destination="MSB-localhost/5000" dateTime="2017-04-05T17:03:58.946Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:03:58.946Z"/>
+--HDiXxaIP
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:03:58.946Z" MessageId="WS8|2017-04-05T17:03:58.946Z|0001">
+--HDiXxaIP--
+GET /changeState 200 0.409 ms - -
+GET /heartbeat 200 2.017 ms - -
+GET /changeState 200 0.416 ms - -
+GET /changeState 200 2.341 ms - -
+GET /heartbeat 200 0.548 ms - -
+GET /changeState 200 0.391 ms - -
+Content-Type: multipart/mixed;boundary=fkVdWyWm
+Message-Id: <IPC2501-2541>
+
+--fkVdWyWm
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="WS8" destination="MSB" dateTime="2017-04-05T17:04:18.456Z" messageSchema="http://webstds.ipc.org/2541/EquipmentChangeState.xsd" messageId="WS8|2017-04-05T17:04:18.456Z"/>
+--fkVdWyWm
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2541EquipmentHeartbeat xmlns:IPC2541EqHeartbeat="http://wbstds.ipc.org/2541/EquipmentHeartbeat.xsd" dateTime="2017-04-05T17:04:18.456Z" interval="20000">
+--fkVdWyWm--
+POST /heartbeat 200 0.882 ms - -
+Content-Type: multipart/mixed;boundary=eVcdYrpp
+Message-Id: <IPC2501-2541>
+
+--eVcdYrpp
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="AA-localhost/5000" destination="MSB-localhost/5000" dateTime="2017-04-05T17:04:18.952Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:04:18.952Z"/>
+--eVcdYrpp
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:04:18.952Z" MessageId="WS8|2017-04-05T17:04:18.952Z|0001">
+--eVcdYrpp--
+GET /changeState 200 0.420 ms - -
+GET /heartbeat 200 0.451 ms - -
+GET /changeState 200 0.369 ms - -
+^C
+G:\STUDY COURSES TUT\Factory information system\assignment\3\FIS-3>

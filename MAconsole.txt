@@ -1,0 +1,855 @@
+
+G:\STUDY COURSES TUT\Factory information system\assignment\3\FIS-3>node MA.js
+Server running at http://localhost:4000/
+valXML1 IPC2501.xsd is valid: true
+valXML2 IPC2541HeartBeat.xsd is valid: true
+Content-Type: multipart/mixed;boundary=GbRhwgnM
+Message-Id: <IPC2501-2541>
+
+--GbRhwgnM
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="WS8" dateTime="2017-04-05T17:00:05.044Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:05.044Z"/>
+--GbRhwgnM
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:05.044Z" MessageId="WS8|2017-04-05T17:00:05.044Z|0001">
+--GbRhwgnM--
+{ id: 'Z2_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411615086,
+  payload: { PalletID: '1491411502269' },
+  clientData: '' }
+POST /notifs 200 54.726 ms - 24
+{ id: 'Z2_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411615086,
+  payload: { PalletID: '1491411502269' },
+  clientData: '' }
+POST /notifs 200 7.537 ms - 24
+valXML1 IPC2501.xsd is valid: true
+valXML1 IPC2501.xsd is valid: true
+valXML2 IPC2541ChangeState.xsd is valid: true
+valXML2 IPC2541ChangeState.xsd is valid: true
+Content-Type: multipart/mixed;boundary=zDI8Fk1F
+Message-Id: <IPC2501-2541>
+
+--zDI8Fk1F
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimCNV8" dateTime="2017-04-05T17:00:16.046Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:16.046Z"/>
+--zDI8Fk1F
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:16.046Z" MessageId="SimCNV8|2017-04-05T17:00:16.046Z|0001">
+--zDI8Fk1F--
+Content-Type: multipart/mixed;boundary=3uUNAnSf
+Message-Id: <IPC2501-2541>
+
+--3uUNAnSf
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimCNV8" dateTime="2017-04-05T17:00:16.065Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:16.065Z"/>
+--3uUNAnSf
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:16.065Z" MessageId="SimCNV8|2017-04-05T17:00:16.065Z|0001">
+--3uUNAnSf--
+{ id: 'Z2_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411618408,
+  payload: { PalletID: -1 },
+  clientData: '' }
+POST /notifs 200 3.106 ms - 24
+{ id: 'Z2_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411618408,
+  payload: { PalletID: -1 },
+  clientData: '' }
+POST /notifs 200 3.597 ms - 24
+{ id: 'Z3_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411619112,
+  payload: { PalletID: '1491411502269' },
+  clientData: '' }
+POST /notifs 200 11.708 ms - 24
+{ id: 'Z3_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411619112,
+  payload: { PalletID: '1491411502269' },
+  clientData: '' }
+POST /notifs 200 7.051 ms - 24
+valXML1 IPC2501.xsd is valid: true
+valXML1 IPC2501.xsd is valid: true
+valXML2 IPC2541ChangeState.xsd is valid: true
+Content-Type: multipart/mixed;boundary=sVV2UdYn
+Message-Id: <IPC2501-2541>
+
+--sVV2UdYn
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimCNV8" dateTime="2017-04-05T17:00:19.949Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:19.949Z"/>
+--sVV2UdYn
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:19.949Z" MessageId="SimCNV8|2017-04-05T17:00:19.949Z|0001">
+--sVV2UdYn--
+valXML2 IPC2541ChangeState.xsd is valid: true
+Content-Type: multipart/mixed;boundary=qiJEfA0E
+Message-Id: <IPC2501-2541>
+
+--qiJEfA0E
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimCNV8" dateTime="2017-04-05T17:00:20.008Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:20.008Z"/>
+--qiJEfA0E
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:20.008Z" MessageId="SimCNV8|2017-04-05T17:00:20.008Z|0001">
+--qiJEfA0E--
+{ id: 'Z3_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411622600,
+  payload: { PalletID: -1 },
+  clientData: '' }
+POST /notifs 200 1.898 ms - 24
+{ id: 'Z3_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411622600,
+  payload: { PalletID: -1 },
+  clientData: '' }
+POST /notifs 200 1.564 ms - 24
+{ id: 'Z5_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411623901,
+  payload: { PalletID: '1491411502269' },
+  clientData: '' }
+POST /notifs 200 10.992 ms - 24
+{ id: 'Z5_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411623901,
+  payload: { PalletID: '1491411502269' },
+  clientData: '' }
+POST /notifs 200 6.952 ms - 24
+valXML1 IPC2501.xsd is valid: true
+valXML1 IPC2501.xsd is valid: true
+valXML2 IPC2541ChangeState.xsd is valid: true
+Content-Type: multipart/mixed;boundary=21HYMRJD
+Message-Id: <IPC2501-2541>
+
+--21HYMRJD
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimCNV8" dateTime="2017-04-05T17:00:24.758Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:24.758Z"/>
+--21HYMRJD
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:24.758Z" MessageId="SimCNV8|2017-04-05T17:00:24.758Z|0001">
+--21HYMRJD--
+valXML2 IPC2541ChangeState.xsd is valid: true
+Content-Type: multipart/mixed;boundary=3KKXVdar
+Message-Id: <IPC2501-2541>
+
+--3KKXVdar
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimCNV8" dateTime="2017-04-05T17:00:24.823Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:24.823Z"/>
+--3KKXVdar
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:24.823Z" MessageId="SimCNV8|2017-04-05T17:00:24.823Z|0001">
+--3KKXVdar--
+valXML1 IPC2501.xsd is valid: true
+valXML2 IPC2541HeartBeat.xsd is valid: true
+Content-Type: multipart/mixed;boundary=WyKkJBQo
+Message-Id: <IPC2501-2541>
+
+--WyKkJBQo
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="WS8" dateTime="2017-04-05T17:00:25.363Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:25.363Z"/>
+--WyKkJBQo
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:25.363Z" MessageId="WS8|2017-04-05T17:00:25.363Z|0001">
+--WyKkJBQo--
+{ id: 'Z5_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411627405,
+  payload: { PalletID: -1 },
+  clientData: '' }
+POST /notifs 200 3.385 ms - 24
+{ id: 'Z5_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411627405,
+  payload: { PalletID: -1 },
+  clientData: '' }
+POST /notifs 200 2.460 ms - 24
+{ id: 'Z4_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411640261,
+  payload: { PalletID: '1491411502270' },
+  clientData: '' }
+POST /notifs 200 12.188 ms - 24
+{ id: 'Z4_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411640261,
+  payload: { PalletID: '1491411502270' },
+  clientData: '' }
+POST /notifs 200 11.385 ms - 24
+valXML1 IPC2501.xsd is valid: true
+valXML1 IPC2501.xsd is valid: true
+valXML2 IPC2541ChangeState.xsd is valid: true
+Content-Type: multipart/mixed;boundary=LNLSDsKG
+Message-Id: <IPC2501-2541>
+
+--LNLSDsKG
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimCNV8" dateTime="2017-04-05T17:00:41.105Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:41.105Z"/>
+--LNLSDsKG
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:41.105Z" MessageId="SimCNV8|2017-04-05T17:00:41.105Z|0001">
+--LNLSDsKG--
+valXML2 IPC2541ChangeState.xsd is valid: true
+Content-Type: multipart/mixed;boundary=qeEq5o5t
+Message-Id: <IPC2501-2541>
+
+--qeEq5o5t
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimCNV8" dateTime="2017-04-05T17:00:41.171Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:41.171Z"/>
+--qeEq5o5t
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:41.171Z" MessageId="SimCNV8|2017-04-05T17:00:41.171Z|0001">
+--qeEq5o5t--
+{ id: 'Z4_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411643861,
+  payload: { PalletID: -1 },
+  clientData: '' }
+POST /notifs 200 3.478 ms - 24
+{ id: 'Z4_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411643861,
+  payload: { PalletID: -1 },
+  clientData: '' }
+POST /notifs 200 3.389 ms - 24
+valXML1 IPC2501.xsd is valid: true
+{ id: 'Z5_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411644897,
+  payload: { PalletID: '1491411502270' },
+  clientData: '' }
+POST /notifs 200 6.974 ms - 24
+{ id: 'Z5_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411644897,
+  payload: { PalletID: '1491411502270' },
+  clientData: '' }
+POST /notifs 200 7.537 ms - 24
+valXML1 IPC2501.xsd is valid: true
+valXML1 IPC2501.xsd is valid: true
+valXML2 IPC2541HeartBeat.xsd is valid: true
+Content-Type: multipart/mixed;boundary=R8sl5mWQ
+Message-Id: <IPC2501-2541>
+
+--R8sl5mWQ
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="WS8" dateTime="2017-04-05T17:00:45.468Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:45.468Z"/>
+--R8sl5mWQ
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:45.468Z" MessageId="WS8|2017-04-05T17:00:45.468Z|0001">
+--R8sl5mWQ--
+valXML2 IPC2541ChangeState.xsd is valid: true
+valXML2 IPC2541ChangeState.xsd is valid: true
+Content-Type: multipart/mixed;boundary=UndKWxj7
+Message-Id: <IPC2501-2541>
+
+--UndKWxj7
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimCNV8" dateTime="2017-04-05T17:00:45.918Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:45.918Z"/>
+--UndKWxj7
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:45.918Z" MessageId="SimCNV8|2017-04-05T17:00:45.918Z|0001">
+--UndKWxj7--
+Content-Type: multipart/mixed;boundary=H3MaV6AO
+Message-Id: <IPC2501-2541>
+
+--H3MaV6AO
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimCNV8" dateTime="2017-04-05T17:00:45.923Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:45.923Z"/>
+--H3MaV6AO
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:45.923Z" MessageId="SimCNV8|2017-04-05T17:00:45.923Z|0001">
+--H3MaV6AO--
+{ id: 'Z2_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411654070,
+  payload: { PalletID: '1491411502271' },
+  clientData: '' }
+POST /notifs 200 6.715 ms - 24
+{ id: 'Z2_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411654070,
+  payload: { PalletID: '1491411502271' },
+  clientData: '' }
+POST /notifs 200 6.680 ms - 24
+valXML1 IPC2501.xsd is valid: true
+valXML1 IPC2501.xsd is valid: true
+valXML2 IPC2541ChangeState.xsd is valid: true
+Content-Type: multipart/mixed;boundary=IanBFw1y
+Message-Id: <IPC2501-2541>
+
+--IanBFw1y
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimCNV8" dateTime="2017-04-05T17:00:54.883Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:54.883Z"/>
+--IanBFw1y
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:54.883Z" MessageId="SimCNV8|2017-04-05T17:00:54.883Z|0001">
+--IanBFw1y--
+valXML2 IPC2541ChangeState.xsd is valid: true
+Content-Type: multipart/mixed;boundary=MHG8Q9oV
+Message-Id: <IPC2501-2541>
+
+--MHG8Q9oV
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimCNV8" dateTime="2017-04-05T17:00:54.964Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:54.964Z"/>
+--MHG8Q9oV
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:54.964Z" MessageId="SimCNV8|2017-04-05T17:00:54.964Z|0001">
+--MHG8Q9oV--
+{ id: 'Z2_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411657404,
+  payload: { PalletID: -1 },
+  clientData: '' }
+POST /notifs 200 8.916 ms - 24
+{ id: 'Z2_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411657404,
+  payload: { PalletID: -1 },
+  clientData: '' }
+POST /notifs 200 6.756 ms - 24
+{ id: 'Z3_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411658104,
+  payload: { PalletID: '1491411502271' },
+  clientData: '' }
+POST /notifs 200 8.158 ms - 24
+{ id: 'Z3_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411658104,
+  payload: { PalletID: '1491411502271' },
+  clientData: '' }
+POST /notifs 200 9.531 ms - 24
+valXML1 IPC2501.xsd is valid: true
+valXML1 IPC2501.xsd is valid: true
+valXML2 IPC2541ChangeState.xsd is valid: true
+Content-Type: multipart/mixed;boundary=464UodIo
+Message-Id: <IPC2501-2541>
+
+--464UodIo
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimCNV8" dateTime="2017-04-05T17:00:58.943Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:58.943Z"/>
+--464UodIo
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:58.943Z" MessageId="SimCNV8|2017-04-05T17:00:58.943Z|0001">
+--464UodIo--
+valXML2 IPC2541ChangeState.xsd is valid: true
+Content-Type: multipart/mixed;boundary=J88OUrnJ
+Message-Id: <IPC2501-2541>
+
+--J88OUrnJ
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimCNV8" dateTime="2017-04-05T17:00:59.003Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:00:59.003Z"/>
+--J88OUrnJ
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:00:59.003Z" MessageId="SimCNV8|2017-04-05T17:00:59.003Z|0001">
+--J88OUrnJ--
+{ id: 'DrawStartExecution',
+  senderID: 'SimROB8',
+  lastEmit: 1491411661559,
+  payload: { Recipe: '1' },
+  clientData: '' }
+POST /notifs 200 12.093 ms - 24
+{ id: 'DrawStartExecution',
+  senderID: 'SimROB8',
+  lastEmit: 1491411661559,
+  payload: { Recipe: '1' },
+  clientData: '' }
+POST /notifs 200 17.598 ms - 24
+valXML1 IPC2501.xsd is valid: true
+valXML1 IPC2501.xsd is valid: true
+valXML2 IPC2541ChangeState.xsd is valid: true
+Content-Type: multipart/mixed;boundary=28SrLhqs
+Message-Id: <IPC2501-2541>
+
+--28SrLhqs
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimROB8" dateTime="2017-04-05T17:01:02.758Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:02.758Z"/>
+--28SrLhqs
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:02.758Z" MessageId="SimROB8|2017-04-05T17:01:02.758Z|0001">
+--28SrLhqs--
+valXML2 IPC2541ChangeState.xsd is valid: true
+Content-Type: multipart/mixed;boundary=NI7MDVFX
+Message-Id: <IPC2501-2541>
+
+--NI7MDVFX
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimROB8" dateTime="2017-04-05T17:01:02.816Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:02.816Z"/>
+--NI7MDVFX
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:02.816Z" MessageId="SimROB8|2017-04-05T17:01:02.816Z|0001">
+--NI7MDVFX--
+valXML1 IPC2501.xsd is valid: true
+valXML2 IPC2541HeartBeat.xsd is valid: true
+Content-Type: multipart/mixed;boundary=omAt6tQA
+Message-Id: <IPC2501-2541>
+
+--omAt6tQA
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="WS8" dateTime="2017-04-05T17:01:05.443Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:05.443Z"/>
+--omAt6tQA
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:05.443Z" MessageId="WS8|2017-04-05T17:01:05.443Z|0001">
+--omAt6tQA--
+{ id: 'DrawEndExecution',
+  senderID: 'SimROB8',
+  lastEmit: 1491411665559,
+  payload: { PalletID: 1491411502271, Recipe: '1', Color: 'RED' },
+  clientData: '' }
+POST /notifs 200 6.609 ms - 24
+{ id: 'DrawEndExecution',
+  senderID: 'SimROB8',
+  lastEmit: 1491411665559,
+  payload: { PalletID: 1491411502271, Recipe: '1', Color: 'RED' },
+  clientData: '' }
+POST /notifs 200 7.518 ms - 24
+valXML1 IPC2501.xsd is valid: true
+valXML1 IPC2501.xsd is valid: true
+valXML2 IPC2541ChangeState.xsd is valid: true
+Content-Type: multipart/mixed;boundary=muVaW8gd
+Message-Id: <IPC2501-2541>
+
+--muVaW8gd
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimROB8" dateTime="2017-04-05T17:01:06.541Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:06.541Z"/>
+--muVaW8gd
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:06.541Z" MessageId="SimROB8|2017-04-05T17:01:06.541Z|0001">
+--muVaW8gd--
+valXML2 IPC2541ChangeState.xsd is valid: true
+Content-Type: multipart/mixed;boundary=DM7SognF
+Message-Id: <IPC2501-2541>
+
+--DM7SognF
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimROB8" dateTime="2017-04-05T17:01:06.609Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:06.609Z"/>
+--DM7SognF
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:06.609Z" MessageId="SimROB8|2017-04-05T17:01:06.609Z|0001">
+--DM7SognF--
+{ id: 'DrawStartExecution',
+  senderID: 'SimROB8',
+  lastEmit: 1491411673014,
+  payload: { Recipe: '5' },
+  clientData: '' }
+POST /notifs 200 6.335 ms - 24
+{ id: 'DrawStartExecution',
+  senderID: 'SimROB8',
+  lastEmit: 1491411673014,
+  payload: { Recipe: '5' },
+  clientData: '' }
+POST /notifs 200 5.942 ms - 24
+valXML1 IPC2501.xsd is valid: true
+valXML1 IPC2501.xsd is valid: true
+valXML2 IPC2541ChangeState.xsd is valid: true
+Content-Type: multipart/mixed;boundary=3ms1Mc3o
+Message-Id: <IPC2501-2541>
+
+--3ms1Mc3o
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimROB8" dateTime="2017-04-05T17:01:14.090Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:14.090Z"/>
+--3ms1Mc3o
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:14.090Z" MessageId="SimROB8|2017-04-05T17:01:14.090Z|0001">
+--3ms1Mc3o--
+valXML2 IPC2541ChangeState.xsd is valid: true
+Content-Type: multipart/mixed;boundary=Fe0Rk4Fr
+Message-Id: <IPC2501-2541>
+
+--Fe0Rk4Fr
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimROB8" dateTime="2017-04-05T17:01:14.124Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:14.124Z"/>
+--Fe0Rk4Fr
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:14.124Z" MessageId="SimROB8|2017-04-05T17:01:14.124Z|0001">
+--Fe0Rk4Fr--
+{ id: 'DrawEndExecution',
+  senderID: 'SimROB8',
+  lastEmit: 1491411677015,
+  payload: { PalletID: 1491411502271, Recipe: '5', Color: 'RED' },
+  clientData: '' }
+POST /notifs 200 7.346 ms - 24
+{ id: 'DrawEndExecution',
+  senderID: 'SimROB8',
+  lastEmit: 1491411677015,
+  payload: { PalletID: 1491411502271, Recipe: '5', Color: 'RED' },
+  clientData: '' }
+POST /notifs 200 7.729 ms - 24
+valXML1 IPC2501.xsd is valid: true
+valXML1 IPC2501.xsd is valid: true
+valXML2 IPC2541ChangeState.xsd is valid: true
+Content-Type: multipart/mixed;boundary=JqybrOoF
+Message-Id: <IPC2501-2541>
+
+--JqybrOoF
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimROB8" dateTime="2017-04-05T17:01:17.856Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:17.856Z"/>
+--JqybrOoF
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:17.856Z" MessageId="SimROB8|2017-04-05T17:01:17.856Z|0001">
+--JqybrOoF--
+valXML2 IPC2541ChangeState.xsd is valid: true
+Content-Type: multipart/mixed;boundary=7uppARa0
+Message-Id: <IPC2501-2541>
+
+--7uppARa0
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimROB8" dateTime="2017-04-05T17:01:17.878Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:17.878Z"/>
+--7uppARa0
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:17.878Z" MessageId="SimROB8|2017-04-05T17:01:17.878Z|0001">
+--7uppARa0--
+{ id: 'DrawStartExecution',
+  senderID: 'SimROB8',
+  lastEmit: 1491411682665,
+  payload: { Recipe: '9' },
+  clientData: '' }
+POST /notifs 200 6.486 ms - 24
+{ id: 'DrawStartExecution',
+  senderID: 'SimROB8',
+  lastEmit: 1491411682665,
+  payload: { Recipe: '9' },
+  clientData: '' }
+POST /notifs 200 7.052 ms - 24
+valXML1 IPC2501.xsd is valid: true
+valXML1 IPC2501.xsd is valid: true
+valXML2 IPC2541ChangeState.xsd is valid: true
+valXML2 IPC2541ChangeState.xsd is valid: true
+Content-Type: multipart/mixed;boundary=XNRDEQ8o
+Message-Id: <IPC2501-2541>
+
+--XNRDEQ8o
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimROB8" dateTime="2017-04-05T17:01:23.717Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:23.717Z"/>
+--XNRDEQ8o
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:23.717Z" MessageId="SimROB8|2017-04-05T17:01:23.717Z|0001">
+--XNRDEQ8o--
+Content-Type: multipart/mixed;boundary=eXBSGg3l
+Message-Id: <IPC2501-2541>
+
+--eXBSGg3l
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimROB8" dateTime="2017-04-05T17:01:23.730Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:23.730Z"/>
+--eXBSGg3l
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:23.730Z" MessageId="SimROB8|2017-04-05T17:01:23.730Z|0001">
+--eXBSGg3l--
+valXML1 IPC2501.xsd is valid: true
+valXML2 IPC2541HeartBeat.xsd is valid: true
+Content-Type: multipart/mixed;boundary=CKXO9k8W
+Message-Id: <IPC2501-2541>
+
+--CKXO9k8W
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="WS8" dateTime="2017-04-05T17:01:25.145Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:25.145Z"/>
+--CKXO9k8W
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:25.145Z" MessageId="WS8|2017-04-05T17:01:25.145Z|0001">
+--CKXO9k8W--
+{ id: 'DrawEndExecution',
+  senderID: 'SimROB8',
+  lastEmit: 1491411686665,
+  payload: { PalletID: 1491411502271, Recipe: '9', Color: 'RED' },
+  clientData: '' }
+POST /notifs 200 5.887 ms - 24
+{ id: 'DrawEndExecution',
+  senderID: 'SimROB8',
+  lastEmit: 1491411686665,
+  payload: { PalletID: 1491411502271, Recipe: '9', Color: 'RED' },
+  clientData: '' }
+POST /notifs 200 5.338 ms - 24
+valXML1 IPC2501.xsd is valid: true
+valXML1 IPC2501.xsd is valid: true
+valXML2 IPC2541ChangeState.xsd is valid: true
+Content-Type: multipart/mixed;boundary=6XVrsRDJ
+Message-Id: <IPC2501-2541>
+
+--6XVrsRDJ
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimROB8" dateTime="2017-04-05T17:01:27.504Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:27.504Z"/>
+--6XVrsRDJ
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:27.504Z" MessageId="SimROB8|2017-04-05T17:01:27.504Z|0001">
+--6XVrsRDJ--
+valXML2 IPC2541ChangeState.xsd is valid: true
+Content-Type: multipart/mixed;boundary=6o3a66hI
+Message-Id: <IPC2501-2541>
+
+--6o3a66hI
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimROB8" dateTime="2017-04-05T17:01:27.539Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:27.539Z"/>
+--6o3a66hI
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:27.539Z" MessageId="SimROB8|2017-04-05T17:01:27.539Z|0001">
+--6o3a66hI--
+{ id: 'Z5_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411694398,
+  payload: { PalletID: -1 },
+  clientData: '' }
+POST /notifs 200 1.322 ms - 24
+{ id: 'Z5_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411694398,
+  payload: { PalletID: -1 },
+  clientData: '' }
+POST /notifs 200 3.007 ms - 24
+{ id: 'Z3_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411699970,
+  payload: { PalletID: -1 },
+  clientData: '' }
+POST /notifs 200 1.753 ms - 24
+{ id: 'Z3_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411699970,
+  payload: { PalletID: -1 },
+  clientData: '' }
+POST /notifs 200 4.062 ms - 24
+{ id: 'Z5_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411701271,
+  payload: { PalletID: '1491411502271' },
+  clientData: '' }
+POST /notifs 200 5.487 ms - 24
+{ id: 'Z5_Changed',
+  senderID: 'SimCNV8',
+  lastEmit: 1491411701271,
+  payload: { PalletID: '1491411502271' },
+  clientData: '' }
+POST /notifs 200 7.913 ms - 24
+valXML1 IPC2501.xsd is valid: true
+valXML1 IPC2501.xsd is valid: true
+valXML2 IPC2541ChangeState.xsd is valid: true
+valXML2 IPC2541ChangeState.xsd is valid: true
+Content-Type: multipart/mixed;boundary=AdGGps0r
+Message-Id: <IPC2501-2541>
+
+--AdGGps0r
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimCNV8" dateTime="2017-04-05T17:01:42.112Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:42.112Z"/>
+--AdGGps0r
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:42.112Z" MessageId="SimCNV8|2017-04-05T17:01:42.112Z|0001">
+--AdGGps0r--
+Content-Type: multipart/mixed;boundary=cIi7g8xw
+Message-Id: <IPC2501-2541>
+
+--cIi7g8xw
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="SimCNV8" dateTime="2017-04-05T17:01:42.119Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:42.119Z"/>
+--cIi7g8xw
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:42.119Z" MessageId="SimCNV8|2017-04-05T17:01:42.119Z|0001">
+--cIi7g8xw--
+valXML1 IPC2501.xsd is valid: true
+valXML2 IPC2541HeartBeat.xsd is valid: true
+Content-Type: multipart/mixed;boundary=yt27e04u
+Message-Id: <IPC2501-2541>
+
+--yt27e04u
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="WS8" dateTime="2017-04-05T17:01:45.147Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:01:45.147Z"/>
+--yt27e04u
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:01:45.147Z" MessageId="WS8|2017-04-05T17:01:45.147Z|0001">
+--yt27e04u--
+^C
+G:\STUDY COURSES TUT\Factory information system\assignment\3\FIS-3>node MA.js
+Server running at http://localhost:4000/
+valXML1 IPC2501.xsd is valid: true
+valXML2 IPC2541HeartBeat.xsd is valid: true
+Content-Type: multipart/mixed;boundary=wX5FE6Bg
+Message-Id: <IPC2501-2541>
+
+--wX5FE6Bg
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="WS8" dateTime="2017-04-05T17:03:38.963Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:03:38.963Z"/>
+--wX5FE6Bg
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:03:38.963Z" MessageId="WS8|2017-04-05T17:03:38.963Z|0001">
+--wX5FE6Bg--
+valXML1 IPC2501.xsd is valid: true
+valXML2 IPC2541HeartBeat.xsd is valid: true
+Content-Type: multipart/mixed;boundary=5lvREsar
+Message-Id: <IPC2501-2541>
+
+--5lvREsar
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="WS8" dateTime="2017-04-05T17:03:58.938Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:03:58.938Z"/>
+--5lvREsar
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:03:58.938Z" MessageId="WS8|2017-04-05T17:03:58.938Z|0001">
+--5lvREsar--
+valXML1 IPC2501.xsd is valid: true
+valXML2 IPC2541HeartBeat.xsd is valid: true
+Content-Type: multipart/mixed;boundary=gMnWwwiB
+Message-Id: <IPC2501-2541>
+
+--gMnWwwiB
+Content-Type: text/xml;charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><IPC2501MsgInfo:MessageInfo xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd" sender="MSB-localhost/5000" destination="WS8" dateTime="2017-04-05T17:04:18.945Z" messageSchema="http://webstds.ipc.org/2541/Acknowledgement.xsd" messageId="MSB-localhost/5000|2017-04-05T17:04:18.945Z"/>
+--gMnWwwiB
+Content-Type: text/xml; charset=utf-8
+Content-Transfer-Encoding: base64
+
+<?xml version="1.0" encoding="UTF-8"?><IPC2501Ack:Acknowledge xmlns:IPC2501Ack="http://wbstds.ipc.org/2541/Acknowledge.xsd" dateTime="2017-04-05T17:04:18.945Z" MessageId="WS8|2017-04-05T17:04:18.945Z|0001">
+--gMnWwwiB--
+valXML1 IPC2501.xsd is valid: true
+valXML2 IPC2541HeartBeat.xsd is valid: true
+undefined
+^C
+G:\STUDY COURSES TUT\Factory information system\assignment\3\FIS-3>
