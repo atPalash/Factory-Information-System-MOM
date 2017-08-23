@@ -2,7 +2,7 @@
 
 ## Objective
 
-Illustrate use of selected messages from IPC-2501 and IPC-2541 standards to monitor the status of machines in the production line. The states of the machines are saved to the database in order to create later the trends for production system and its machines. Build the code for FASTory line simulator (http://escop.rd.tut.fi:3000/) 
+Illustrate use of selected messages from IPC-2501 and IPC-2541 standards to monitor the status of machines in the production line. The states of the machines are saved to the MySQL database in order to create later the trends for production system and its machines. Build the code for FASTory line simulator (http://escop.rd.tut.fi:3000/) 
 
 ##  Implementation
 Each machine implements CAMX communication approach. As such there is Message Broker (MSB). In order to test MSB before deploying it for the actual line, we implemented two clients - Machine Application (MA) (representing actual equipment) and Archiver Application (AA) (saves data to the database). The system architecture can be depicted as follows: MA <---> MSB <---> AA.
