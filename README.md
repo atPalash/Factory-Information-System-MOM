@@ -9,3 +9,5 @@ Each machine implements CAMX communication approach. As such there is Message Br
 
 The MA implements EquipmentHeartbeat and EquipmentChangeState messages from IPC-2541 standard. The IPC-2501 standard has to be used for MA, MSB and AA integration. On MA side, it also reacts to the sequential change of the sates that would trigger MA sending EquipmentChangeState messages. On the AA side, the AA should subscribe for EquipmentChangeState and EquipmentHeartbeat messages. AA should store to the database changing states and rise an alarm to the operator once it does not get the EquipmentHearbeat message in the due time. The rise of alarm can be just a printing to the console that the heartbeat is missing.
 
+### video
+watch My Movie.avi for explanation
